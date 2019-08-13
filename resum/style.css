@@ -225,7 +225,7 @@ html{
     text-transform: uppercase;
 }
 .list-item_text{
-    font-size: 
+    font-size: 12px;
 }
 .list-item_non-border{
     border: none;
@@ -275,18 +275,45 @@ html{
 @media(max-width: 992px){
     .container{
         flex-direction: column;
+        width: 70%;
     }
-    .profile{
-        flex-basis: 100%
-    }    
-    .resume
+    .profile-photo{
+        height: 500px;
+    }
+    .lines{
+        display: none;
+    }
 }
 @media(max-width: 768px){
-    
+    .container{
+        width: 80%;
+    }
+    .resume-wrap{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 }
 @media(max-width: 567px){
-    
+    .logo-img{
+        width: 50px;
+        height: 50px;
+    }
+    .logo-lines{
+        margin-right: 8px;
+        margin-left: 8px;
+    }
 }
 @media(max-width: 480px){
-    
+    .logo{
+        display: none;
+    }
+    .container{
+        min-width: 320px;
+    }
+    .name{
+        letter-spacing: normal;
+    }
+    .level{
+        width: 50%;
+    }
 }

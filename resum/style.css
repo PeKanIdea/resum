@@ -18,8 +18,8 @@ html{
     color: #ababab;
 }
 .profile-photo{
-    height: 250px;
-    background-image: url(xC6ki1LpwA0.jpg);
+    height: 300px;
+    background-image: url(photo_2019-08-12_14-56-21.jpg);
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
@@ -167,7 +167,7 @@ html{
 .name{
     font-size: 16px;
     text-transform: uppercase;
-    letter-spacing: 10.75px;
+    letter-spacing: 7.75px;
     margin-bottom: 10px;
 }
 .position{
@@ -264,8 +264,11 @@ html{
 .level-90:before{
     width: 90%;
 }
-.level-50:before{
-    width: 50%;
+.level-75:before{
+    width: 75%;
+}
+.level-70:before{
+    width: 70%;
 }
 @media(max-width: 1024px){
     .container{

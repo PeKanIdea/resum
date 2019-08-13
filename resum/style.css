@@ -258,18 +258,6 @@ html{
     height: 100%;
     background-color: #898989;
 }
-.level-80:before{
-    width: 80%;
-}
-.level-90:before{
-    width: 90%;
-}
-.level-75:before{
-    width: 75%;
-}
-.level-70:before{
-    width: 70%;
-}
 @media(max-width: 1024px){
     .container{
         width: 90%;
